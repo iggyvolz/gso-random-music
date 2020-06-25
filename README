@@ -1,0 +1,12 @@
+How to use:
+- Stick a Slack-compatible webhook URL in config.json like:
+{
+    "webhook": "https://hooks.slack.com/TXXXXX/BXXXXX/XXXXXXXXXX"
+}
+
+Or, if you use Discord, add /slack to the end of the URL:
+{
+    "webhook": "https://discordapp.com/api/webhooks/123456789/blahblahblahblahblah/slack"
+}
+
+Put a list of messages in messages.txt, one per line.  Empty lines are ignored, and you can start a line with ; to make it a comment.
